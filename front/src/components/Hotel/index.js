@@ -12,7 +12,9 @@ const Hotel = ({ hotel }) => {
           <h5 className="title">{`${hotel.name} ${"*".repeat(
             hotel.stars
           )}`}</h5>
-          <div className="reviews">9.6 (210)</div>
+          <div className="reviews">{`${hotel.avgScore.toFixed(1)} (${
+            hotel.nbReviews
+          })`}</div>
         </div>
         <p className="preview">{hotel.preview}</p>
         <Pricing
