@@ -1,0 +1,22 @@
+@import "colors";
+
+.hotel {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 1.25rem;
+  }
+  .title {
+    font-weight: 600;
+    color: $text;
+    margin: 0;
+  }
+  .reviews {
+    color: $text-light;
+    font-weight: 600;
+  }
+  .preview {
+    margin: 0;
+  }
+}
